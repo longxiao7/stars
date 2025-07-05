@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>My Starred Projects</title>
+    <title>给已Star的项目写个备注</title>
     <style>
         .repo {
             border: 1px solid #ccc;
@@ -10,31 +10,200 @@
             margin: 10px;
             border-radius: 5px;
         }
+        .notes{
+            width: 100%;
+            min-height: 50 px;
+            font-size: 20px;
+            font-family: auto;
+        }
+        .controls {
+            margin: 20px 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .save_notes,.control-btn {
+            padding: 8px 15px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .save_notes:hover,.control-btn:hover {
+            background-color: #0b7dda;
+        }
+        #fileInput {
+            display: none;
+        }
     </style>
+    <script src="./scripts/jquery-3.7.1.min.js"></script>
+    <script src="./scripts/dexie.min.js"></script>
 </head>
 <body>
-    <h1>My Starred Projects</h1>
+    <h1>给已Star的项目写个备注</h1>
+    <div class="controls">
+        <button class="control-btn" id="exportBtn">导出数据</button>
+        <button class="control-btn" id="importBtn">导入数据</button>
+        <button class="control-btn" id="loadBtn">从repo载入数据</button>
+        <input type="file" id="fileInput" accept=".json">
+    </div>
     <div id="repos"></div>
     <script>
-        // 注意：JSON文件的路径，如果你放在docs目录下，那么路径就是'starred_repos.json'，否则可能需要调整
-        fetch('starred_repos.json')
-            .then(response => response.json())
-            .then(repos => {
-                const container = document.getElementById('repos');
-                repos.forEach(repo => {
-                    const repoElement = document.createElement('div');
-                    repoElement.className = 'repo';
-                    repoElement.innerHTML = `
-						<div class="item">
-                        <h4><a href="${repo.html_url}" target="_blank">${repo.full_name}</a><span>Stars: ${repo.stargazers_count}</span></h4>
-                        <p>${repo.description || 'No description'}</p>
-                        <p>Language: ${repo.language || 'Unknown'}</p>
-                        </div>
-                    `;
-                    container.appendChild(repoElement);
-                });
-            })
-            .catch(error => console.error('Error loading repos:', error));
+        $(document).ready(function(){
+                        
+            //创建数据库
+            window.db = new Dexie('MyNotes');
+            // 定义数据库版本和表结构
+            db.version(1).stores({
+                notes: 'id, notes'
+            });
+
+            //查询一条数据
+            async function get_note(id){
+                return await db.notes.get(id);
+            }
+
+            //页面填充数据
+            fetch('starred_repos.json')
+                .then(response => response.json())
+                .then(repos => {
+                    const container = document.getElementById('repos');
+                    repos.forEach(repo => {
+                        const repoElement = document.createElement('div');
+                        repoElement.className = 'repo';
+                        repoElement.innerHTML = `
+                            <div class="item" >
+                                <h4><a href="${repo.html_url}" target="_blank">${repo.full_name}</a> </h4>
+                                <p>Stars: ${repo.stargazers_count}</p>
+                                <p>${repo.description || 'No description'}</p>
+                                <p>Language: ${repo.language || 'Unknown'}</p>
+                                <p>Note: <button class="save_notes" id="${repo.id}">保存到浏览器缓存</button></p> 
+                                <textarea class="notes" id="note_${repo.id}"></textarea>
+                            </div>
+                        `;
+                        container.appendChild(repoElement);
+                    });
+                })
+                .then(function(){
+                    $(".notes").each(function(){
+                        const _this = $(this);
+                        const id = _this.attr("id").replace("note_",'');
+                        get_note(id).then(function(notes){
+                            if (notes !== undefined) {
+                                _this.val(notes.notes);
+                            }
+                        });
+                    });
+                })
+                .catch(error => console.error('Error loading repos:', error));
+
+            //保存数据按钮
+            $("#repos").delegate(".save_notes","click",function(){
+                const id = $(this).attr("id");
+                const note_id = "note_"+ id;
+                const notes = $("#"+note_id).val();
+                db.notes.put({"id": id, "notes": notes}).then(alert("操作完成"));
+            });
+
+            //下载文件
+            function downloadJson(jsonString, filename) {
+                const blob = new Blob([jsonString], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                setTimeout(() => {
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                }, 0);
+            }
+            //导出按钮
+            $("#exportBtn").click(async function () {
+                try {
+                    const exportData = {};
+                    
+                    for (const tableName of ['notes']) {
+                        if (db[tableName]) {
+                            exportData[tableName] = await db[tableName].toArray();
+                        }
+                    }
+                    const jsonString = JSON.stringify(exportData, null, 2);
+                    downloadJson(jsonString, 'selected_tables_export.json');
+                } catch (error) {
+                    console.error('导出失败:', error);
+                }
+            });
+            //导入数据
+            async function importNotes(jsonData) {
+                    try {
+                        // 开始事务
+                        await db.transaction('rw', db.tables, async () => {
+                        // 清空现有数据（可选）
+                        await Promise.all(db.tables.map(table => table.clear()));
+                        
+                        // 导入每张表的数据
+                        for (const tableName in jsonData) {
+                            if (db[tableName]) {
+                            await db[tableName].bulkAdd(jsonData[tableName]);
+                            }
+                        }
+                        });
+                        
+                        console.log('数据导入成功');
+                    } catch (error) {
+                        console.error('导入失败:', error);
+                    }
+                }
+            //导入按钮
+            $("#importBtn").click(function(){
+                $("#fileInput").click();
+            });
+
+            
+            $("#fileInput").change(async (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+                
+                try {
+                    const fileContent = await file.text();
+                    const notesData = JSON.parse(fileContent);
+                    
+                    if (confirm('导入数据会先清空浏览器缓存的数据 是否继续？')) {
+                        await importNotes(notesData);
+                        alert('导入成功!');
+                        location.reload();
+                    }
+                } catch (error) {
+                    console.error('Error importing notes:', error);
+                    alert('导入失败');
+                }
+
+                $("#fileInput").val("");
+            });
+            //载入数据
+            
+            $("#loadBtn").click(async (e) => {
+                fetch('notes.json')
+                .then(response => response.json())
+                .then(async data => {
+                    try {
+                        if (confirm('导入数据会先清空浏览器缓存的数据 是否继续？')) {
+                            await importNotes(data);
+                            alert('载入成功!');
+                            location.reload();
+                        }
+                    } catch (error) {
+                        console.error('Error importing notes:', error);
+                        alert('载入失败');
+                    }
+                })
+                .catch(error => console.error('Error loading repos:', error));
+            });
+
+        });
+
     </script>
 </body>
 </html>
