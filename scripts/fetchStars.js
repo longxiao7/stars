@@ -28,7 +28,9 @@ function fetchAllStarredRepos(page = 1, allRepos = []) {
             html_url: repo.html_url,
             name: repo.name,
             full_name: repo.full_name,
-            description: repo.description
+            description: repo.description,
+            stargazers_count: repo.stargazers_count,
+            language: repo.language
           }));
           allRepos.push(...filteredRepos);
           const linkHeader = res.headers.link;

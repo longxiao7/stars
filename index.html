@@ -25,10 +25,11 @@
                     const repoElement = document.createElement('div');
                     repoElement.className = 'repo';
                     repoElement.innerHTML = `
-                        <h2><a href="${repo.html_url}" target="_blank">${repo.full_name}</a></h2>
+						<div class="item">
+                        <h4><a href="${repo.html_url}" target="_blank">${repo.full_name}</a><span>Stars: ${repo.stargazers_count}</span></h4>
                         <p>${repo.description || 'No description'}</p>
-                        <p>Stars: ${repo.stargazers_count}</p>
                         <p>Language: ${repo.language || 'Unknown'}</p>
+                        </div>
                     `;
                     container.appendChild(repoElement);
                 });
