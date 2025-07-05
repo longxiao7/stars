@@ -7,6 +7,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:  # 👈 添加权限配置
+      contents: write  # 允许写入仓库
     steps:
       - uses: actions/checkout@v4
         
@@ -32,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add starred.json
+          git add starred_repos.json
           git commit -m "Update starred repos" || echo "No changes"
           git push
