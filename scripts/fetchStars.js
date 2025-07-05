@@ -3,8 +3,6 @@ const fs = require('fs');
 
 const USERNAME = process.env.GH_UNAME;
 const TOKEN = process.env.GH_TOKEN;
-console.log(USERNAME);
-console.log(TOKEN);
 const OUTPUT_FILE = './data/starred_repos.json';
 
 function fetchAllStarredRepos(page = 1, allRepos = []) {
