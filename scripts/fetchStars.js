@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const USERNAME = 'longxiao7';
 const TOKEN = process.env.GITHUB_TOKEN;
-const OUTPUT_FILE = '../data/starred_repos.json';
+const OUTPUT_FILE = '/data/starred_repos.json';
 
 function fetchAllStarredRepos(page = 1, allRepos = []) {
   const options = {
