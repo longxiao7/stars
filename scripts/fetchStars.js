@@ -1,9 +1,11 @@
 const https = require('https');
 const fs = require('fs');
 
-const USERNAME = 'longxiao7';
-const TOKEN = process.env.GITHUB_TOKEN;
-const OUTPUT_FILE = 'starred_repos.json';
+const USERNAME = process.env.GH_UNAME;
+const TOKEN = process.env.GH_TOKEN;
+console.log(USERNAME);
+console.log(TOKEN);
+const OUTPUT_FILE = './data/starred_repos.json';
 
 function fetchAllStarredRepos(page = 1, allRepos = []) {
   const options = {

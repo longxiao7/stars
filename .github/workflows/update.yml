@@ -24,7 +24,8 @@ jobs:
 
       - name: Run script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_UNAME: ${{ secrets.GH_UNAME }}
         run: |
           cd $GITHUB_WORKSPACE
           ls scripts/  # 确认脚本存在
