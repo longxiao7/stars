@@ -15,8 +15,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '20'
-      - name: Install dependencies
-        run: npm install axios
       - name: Run fetch script
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
