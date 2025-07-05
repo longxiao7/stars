@@ -7,6 +7,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:  # 👈 添加权限配置
+      contents: write  # 允许写入仓库
     steps:
       - uses: actions/checkout@v4
         
