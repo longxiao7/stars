@@ -17,7 +17,7 @@
     <div id="repos"></div>
     <script>
         // 注意：JSON文件的路径，如果你放在docs目录下，那么路径就是'starred_repos.json'，否则可能需要调整
-        fetch('starred_repos.json')
+        fetch('data/starred_repos.json')
             .then(response => response.json())
             .then(repos => {
                 const container = document.getElementById('repos');
