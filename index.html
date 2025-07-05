@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Starred Projects</title>
+    <style>
+        .repo {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Starred Projects</h1>
+    <div id="repos"></div>
+    <script>
+        // 注意：JSON文件的路径，如果你放在docs目录下，那么路径就是'starred_repos.json'，否则可能需要调整
+        fetch('starred_repos.json')
+            .then(response => response.json())
+            .then(repos => {
+                const container = document.getElementById('repos');
+                repos.forEach(repo => {
+                    const repoElement = document.createElement('div');
+                    repoElement.className = 'repo';
+                    repoElement.innerHTML = `
+                        <h2><a href="${repo.html_url}" target="_blank">${repo.full_name}</a></h2>
+                        <p>${repo.description || 'No description'}</p>
+                        <p>Stars: ${repo.stargazers_count}</p>
+                        <p>Language: ${repo.language || 'Unknown'}</p>
+                    `;
+                    container.appendChild(repoElement);
+                });
+            })
+            .catch(error => console.error('Error loading repos:', error));
+    </script>
+</body>
+</html>
