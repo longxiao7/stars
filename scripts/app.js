@@ -182,4 +182,21 @@ $(document).ready(function() {
             })
             .catch(error => console.error('Error loading repos:', error));
     });
+    // 只读化
+    $("#readonly").click(function(){
+        $('textarea').each(function() {
+            var $textarea = $(this);
+            var $div = $('<div></div>');
+            
+            // 保留内容
+            $div.text($textarea.val());
+            
+            // 保留ID、类、样式和其他属性
+            $textarea.attr('id') && $div.attr('id', $textarea.attr('id'));
+            $textarea.attr('class') && $div.addClass($textarea.attr('class'));
+            
+            // 替换元素
+            $textarea.replaceWith($div);
+        });
+    });
 });
