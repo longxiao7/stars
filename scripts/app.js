@@ -24,7 +24,7 @@ $(document).ready(function() {
                             <h4><a href="${repo.html_url}" target="_blank">${repo.full_name}</a></h4>
                             <p>Stars: ${repo.stargazers_count}</p>
                             <p>${repo.description || 'No description'}</p>
-                            <p class="language ${repo.language || 'Unknown'}">Language: ${repo.language || 'Unknown'}</p>
+                            <p class="language">Language: ${repo.language || 'Unknown'}</p>
                             <p>Note: <button class="save_notes" id="${repo.id}">保存到浏览器缓存</button></p>
                             <textarea class="notes" id="note_${repo.id}"></textarea>
                         </div>
@@ -49,7 +49,11 @@ $(document).ready(function() {
                     $(".repo").show();
                 }else{
                     $(".repo").hide();
-                    $(".repo:has(p."+language+")").show();
+                    $("p.language").each(function(){
+                        if($(this).text() == "Language: "+language){
+                            $(this).parent().parent().show();
+                        }
+                    });
                 }
             });
         })
