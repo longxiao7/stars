@@ -25,7 +25,7 @@ $(document).ready(function() {
                             <p>Stars: ${repo.stargazers_count}</p>
                             <p>${repo.description || 'No description'}</p>
                             <p class="language">Language: ${repo.language || 'Unknown'}</p>
-                            <p>Note: <button class="save_notes" id="${repo.id}">保存到浏览器缓存</button></p>
+                            <p>Note: <button class="save_notes" id="${repo.id}">保存</button></p>
                             <textarea class="notes" id="note_${repo.id}"></textarea>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ $(document).ready(function() {
         db.notes.put({
             "id": id,
             "notes": notes
-        }).then(alert("操作完成"));
+        }).then(alert("操作完成,数据已经保存到浏览器缓存"));
     });
 
     // 下载文件
@@ -110,7 +110,7 @@ $(document).ready(function() {
                 }
             }
             const jsonString = JSON.stringify(exportData, null, 2);
-            downloadJson(jsonString, 'selected_tables_export.json');
+            downloadJson(jsonString, 'notes.json');
         } catch (error) {
             console.error('导出失败:', error);
         }

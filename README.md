@@ -10,7 +10,7 @@
 
 ### 部署方法
 
-1. fork 此项目 也可以自己 clone 
+1. clone 此项目，不要使用fork，否则我每天更新自己的数据（主要是data目录）会影响你用。 
 2. 打开 https://github.com/settings/personal-access-tokens 选择 Generate new token ，随便起一个名称，Expiration 选择 No Expiration ，Repository access 选择 Only select repositories ，然后 选择自己刚刚第1步 建立的 项目; Permissions 设置一下 Repository permissions 里面全设置成 Read and write ;Account permissions 里面只需要开 Starring ，最后生成的 token 保存一下 ，如果没保存之后就再也找不到了
 3. 打开第1步的项目 选择 Settings - Secrets and variables - Actions , 新建两个 Repository secrets 
     * GH_TOKEN 这个值是第2步创建的token

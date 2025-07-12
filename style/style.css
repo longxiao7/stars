@@ -1,3 +1,14 @@
+body{
+	background-color: #9cb5c986;
+}
+p{
+	font-size: 14px;
+}
+main{
+	width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .repo {
 	border: 1px solid #ccc;
 	padding: 10px;
@@ -6,14 +17,20 @@
 }
 .notes{
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
     font-family: auto;
     border: 1px solid;
     border-radius: 3px;
+	border-color: #0000003b;
 	margin: 0;
     margin-top: 5px;
-	padding: 0;
+	padding-left: 4px;
+	padding-top: 4px;
     min-height: 4em !important;
+	background-color: transparent;
+}
+select,option{
+	background-color: transparent;
 }
 .controls {
 	margin: 20px 10px;
@@ -29,6 +46,10 @@
 	border-radius: 4px;
 	cursor: pointer;
 	box-sizing: border-box;
+	font-size: 14px;
+}
+.save_notes{
+	font-size: 12px;
 }
 .save_notes:hover,.control-btn:hover {
 	background-color: #0b7dda;
@@ -45,4 +66,10 @@ h1{
 	display: block;
     line-height: 49px;
   }
+}
+
+textarea:focus{
+	outline:none;
+	border-color:rgba(84, 173, 247, 0.678);
+	box-shadow:0 0 8px rgba(39, 184, 241, 0.5);
 }
