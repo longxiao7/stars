@@ -33,8 +33,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "longxiao7"
+          git config user.email "nyaa@qq.com"
           git add ./data/starred_repos.json
           git commit -m "Update starred repos" || echo "No changes"
           git push
