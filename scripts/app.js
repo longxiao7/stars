@@ -165,7 +165,7 @@ $(document).ready(function() {
     });
 
     // 载入数据
-    $("#loadBtn").click(async (e) => {
+    $("#loadBtn").click(async () => {
         fetch('data/notes.json?t_='+Date.now(),{headers: {'Cache-Control': 'no-cache'}})
             .then(response => response.json())
             .then(async data => {
