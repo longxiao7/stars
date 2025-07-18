@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
 
     // 页面填充数据
-    fetch('data/starred_repos.json')
+    fetch('data/starred_repos.json?t_='+Date.now(),{headers: {'Cache-Control': 'no-cache'}})
         .then(response => response.json())
         .then(repos => {
             //收集语言类型并去重
@@ -166,7 +166,7 @@ $(document).ready(function() {
 
     // 载入数据
     $("#loadBtn").click(async (e) => {
-        fetch('data/notes.json')
+        fetch('data/notes.json?t_='+Date.now(),{headers: {'Cache-Control': 'no-cache'}})
             .then(response => response.json())
             .then(async data => {
                 try {
