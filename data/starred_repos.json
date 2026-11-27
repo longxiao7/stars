@@ -5,7 +5,7 @@
     "name": "BBDownT",
     "full_name": "LOVAHE/BBDownT",
     "description": "一个命令行式哔哩哔哩下载器. Bilibili Downloader.  本项目接手自 BBDown，后续项目名称、命令和文档均以 BBDownT 为准。",
-    "stargazers_count": 132,
+    "stargazers_count": 136,
     "language": "C#"
   },
   {
@@ -14,7 +14,7 @@
     "name": "finallyshell",
     "full_name": "TooonyChen/finallyshell",
     "description": "类finalshell的ssh客户端 // An source-available finalshell copy, with go runtime and mygo UI",
-    "stargazers_count": 772,
+    "stargazers_count": 774,
     "language": "Go"
   },
   {
@@ -23,7 +23,7 @@
     "name": "nv-uefi-unlocker",
     "full_name": "physicsdolphin/nv-uefi-unlocker",
     "description": "UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -> FWSEC/WPR2 -> signed Booter -> V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series.",
-    "stargazers_count": 2942,
+    "stargazers_count": 2967,
     "language": "Rust"
   },
   {
@@ -32,7 +32,7 @@
     "name": "browser-harbor",
     "full_name": "MagicCube99/browser-harbor",
     "description": "Multi-Browser Portable Hub: A minimalist tool to download and manage multiple portable browsers.  精简的多 Windows 浏览器便携化工具",
-    "stargazers_count": 32,
+    "stargazers_count": 33,
     "language": "Rust"
   },
   {
@@ -41,7 +41,7 @@
     "name": "DockerTarBuilder",
     "full_name": "wukongdaily/DockerTarBuilder",
     "description": "它是一个工作流。可快速构建指定架构/平台的docker镜像",
-    "stargazers_count": 1832,
+    "stargazers_count": 1835,
     "language": null
   },
   {
@@ -50,7 +50,7 @@
     "name": "FlyDisk",
     "full_name": "youke1686/FlyDisk",
     "description": "Windows 上的开源硬盘加速器 · Open-source hard drive accelerator for Windows",
-    "stargazers_count": 346,
+    "stargazers_count": 347,
     "language": "C#"
   },
   {
@@ -59,7 +59,7 @@
     "name": "BBDown-rust",
     "full_name": "Joey-Project/BBDown-rust",
     "description": null,
-    "stargazers_count": 11,
+    "stargazers_count": 12,
     "language": "Rust"
   },
   {
@@ -68,7 +68,7 @@
     "name": "PiliPlus",
     "full_name": "bggRGjQaUbCoE/PiliPlus",
     "description": "PiliPlus",
-    "stargazers_count": 21430,
+    "stargazers_count": 21458,
     "language": "Dart"
   },
   {
@@ -77,7 +77,7 @@
     "name": "LiteMonitor",
     "full_name": "Diorser/LiteMonitor",
     "description": "一款轻量级、高度可定制的 Windows桌面和任务栏硬件性能监控工具，支持监测 CPU、GPU、内存、磁盘、网速、FPS 计数、插件扩展及内存清理。A lightweight, customizable hardware monitor for the Windows desktop & taskbar. Features CPU/GPU/RAM/Network monitoring, FPS counter, plugin support, and memory optimization.",
-    "stargazers_count": 7015,
+    "stargazers_count": 7019,
     "language": "C#"
   },
   {
@@ -86,7 +86,7 @@
     "name": "PhotoGIMP",
     "full_name": "Diolinux/PhotoGIMP",
     "description": "A Patch for GIMP 3+ for Photoshop Users",
-    "stargazers_count": 18592,
+    "stargazers_count": 18596,
     "language": "Python"
   },
   {
@@ -95,7 +95,7 @@
     "name": "rqlite",
     "full_name": "rqlite/rqlite",
     "description": "The lightweight, fault-tolerant database built on SQLite. Designed to keep your data highly available with minimal effort.",
-    "stargazers_count": 17976,
+    "stargazers_count": 17977,
     "language": "Go"
   },
   {
@@ -104,7 +104,7 @@
     "name": "awesome-zhuiju-free",
     "full_name": "laoma528/awesome-zhuiju-free",
     "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
-    "stargazers_count": 16578,
+    "stargazers_count": 16651,
     "language": "JavaScript"
   },
   {
@@ -131,7 +131,7 @@
     "name": "VPet",
     "full_name": "LorisYounger/VPet",
     "description": "虚拟桌宠模拟器 一个开源的桌宠软件, 可以内置到任何WPF应用程序",
-    "stargazers_count": 7303,
+    "stargazers_count": 7306,
     "language": "C#"
   },
   {
@@ -158,7 +158,7 @@
     "name": "Codewhale",
     "full_name": "codewhale-hq/Codewhale",
     "description": "Open-source Rust coding agent for terminal, web, and desktop. Any model, multi-agent fleets, MCP & plugins, OS sandboxing, and session receipts.",
-    "stargazers_count": 41211,
+    "stargazers_count": 41216,
     "language": "Rust"
   },
   {
@@ -167,7 +167,7 @@
     "name": "free-font",
     "full_name": "wordshub/free-font",
     "description": "大概是2020年最全的免费可商用字体，这里收录的商免字体都能找到明确的授权出处，可以放心使用，持续更新中...",
-    "stargazers_count": 6538,
+    "stargazers_count": 6540,
     "language": "JavaScript"
   },
   {
@@ -176,7 +176,7 @@
     "name": "android-sms-gateway",
     "full_name": "capcom6/android-sms-gateway",
     "description": "The SMS Gateway for Android™ app enables sending and receiving SMS messages through an API that can be accessed directly on the device or via a cloud server when direct device access is not possible.",
-    "stargazers_count": 6058,
+    "stargazers_count": 6061,
     "language": "Kotlin"
   },
   {
@@ -212,7 +212,7 @@
     "name": "open-meteo",
     "full_name": "open-meteo/open-meteo",
     "description": "Free Weather Forecast API for non-commercial use",
-    "stargazers_count": 6727,
+    "stargazers_count": 6732,
     "language": "Swift"
   },
   {
@@ -221,7 +221,7 @@
     "name": "mi-note-export",
     "full_name": "idootop/mi-note-export",
     "description": "📝 一键备份小米笔记，秒变个人博客网站（包含图片、录音等文件）",
-    "stargazers_count": 409,
+    "stargazers_count": 410,
     "language": "TypeScript"
   },
   {
@@ -230,7 +230,7 @@
     "name": "nginxpulse",
     "full_name": "likaia/nginxpulse",
     "description": "轻量级 Nginx 访问日志分析与可视化面板，提供实时统计、PV 过滤、IP 归属地与客户端解析。",
-    "stargazers_count": 2719,
+    "stargazers_count": 2720,
     "language": "Go"
   },
   {
@@ -248,7 +248,7 @@
     "name": "go-wxpush",
     "full_name": "hezhizheng/go-wxpush",
     "description": "极简且免费的微信消息推送服务 (基于golang)",
-    "stargazers_count": 1673,
+    "stargazers_count": 1674,
     "language": "Go"
   },
   {
@@ -257,7 +257,7 @@
     "name": "azerothcore-wotlk",
     "full_name": "azerothcore/azerothcore-wotlk",
     "description": "Complete Open Source and Modular solution for MMO",
-    "stargazers_count": 9211,
+    "stargazers_count": 9216,
     "language": "C++"
   },
   {
@@ -266,7 +266,7 @@
     "name": "sniffnet",
     "full_name": "GyulyVGC/sniffnet",
     "description": "Comfortably monitor your network traffic 🕵️‍♂️",
-    "stargazers_count": 43314,
+    "stargazers_count": 43339,
     "language": "Rust"
   },
   {
@@ -275,7 +275,7 @@
     "name": "Win11Debloat",
     "full_name": "Raphire/Win11Debloat",
     "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-    "stargazers_count": 63737,
+    "stargazers_count": 63783,
     "language": "PowerShell"
   },
   {
@@ -284,7 +284,7 @@
     "name": "pentaho-kettle",
     "full_name": "pentaho/pentaho-kettle",
     "description": "Pentaho Data Integration ( ETL ) a.k.a Kettle",
-    "stargazers_count": 8420,
+    "stargazers_count": 8421,
     "language": "Java"
   },
   {
@@ -320,7 +320,7 @@
     "name": "YuyanIme",
     "full_name": "gurecn/YuyanIme",
     "description": "语燕输入法-一款基于Rime定制开发的九键、全拼、双拼、手写、火星文等方案、支持悬浮、单手、数字行等键盘模式的中文输入法",
-    "stargazers_count": 3815,
+    "stargazers_count": 3816,
     "language": "Kotlin"
   },
   {
@@ -347,7 +347,7 @@
     "name": "edgetunnel",
     "full_name": "cmliu/edgetunnel",
     "description": "edgetunnel2 VLESS/Trojan/SS 多功能面板",
-    "stargazers_count": 50028,
+    "stargazers_count": 50064,
     "language": "JavaScript"
   },
   {
@@ -356,7 +356,7 @@
     "name": "intrascribe",
     "full_name": "weynechen/intrascribe",
     "description": "可内网私有化部署，给团队/单位使用的语音转录总结工具，完整的前后端代码",
-    "stargazers_count": 622,
+    "stargazers_count": 623,
     "language": "TypeScript"
   },
   {
@@ -365,7 +365,7 @@
     "name": "FFmpegFreeUI",
     "full_name": "Lake1059/FFmpegFreeUI",
     "description": "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式。",
-    "stargazers_count": 8571,
+    "stargazers_count": 8574,
     "language": "Visual Basic .NET"
   },
   {
@@ -374,7 +374,7 @@
     "name": "weekly",
     "full_name": "ruanyf/weekly",
     "description": "科技爱好者周刊，每周五发布",
-    "stargazers_count": 108762,
+    "stargazers_count": 108817,
     "language": null
   },
   {
@@ -383,7 +383,7 @@
     "name": "AutoJs6",
     "full_name": "SuperMonster003/AutoJs6",
     "description": "安卓平台 JavaScript 自动化工具 (Auto.js 二次开发项目)",
-    "stargazers_count": 6701,
+    "stargazers_count": 6704,
     "language": "Kotlin"
   },
   {
@@ -392,7 +392,7 @@
     "name": "GithubStarsManager",
     "full_name": "AmintaCCCP/GithubStarsManager",
     "description": "AI-powered GitHub stars manager with semantic search, auto-categorization, and release tracking",
-    "stargazers_count": 3920,
+    "stargazers_count": 3927,
     "language": "TypeScript"
   },
   {
@@ -401,7 +401,7 @@
     "name": "copyparty",
     "full_name": "9001/copyparty",
     "description": "Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file",
-    "stargazers_count": 47470,
+    "stargazers_count": 47484,
     "language": "Python"
   },
   {
@@ -410,7 +410,7 @@
     "name": "LiYing",
     "full_name": "aoguai/LiYing",
     "description": "LiYing is an automated photo processing program designed for automating the post-processing workflow of ID photos in general photo studios. | LiYing 是一套适用于自动化 完成一般照相馆后期证件照处理流程的照片自动处理的程序。",
-    "stargazers_count": 4200,
+    "stargazers_count": 4203,
     "language": "Python"
   },
   {
@@ -419,7 +419,7 @@
     "name": "pansou",
     "full_name": "fish2018/pansou",
     "description": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 https://t.me/s/webhtv",
-    "stargazers_count": 15384,
+    "stargazers_count": 15396,
     "language": "Go"
   },
   {
@@ -455,7 +455,7 @@
     "name": "websocket-devtools",
     "full_name": "law-chain-hot/websocket-devtools",
     "description": "Complete WebSocket Traffic Control with advanced proxy, simulation, and blocking capabilities",
-    "stargazers_count": 1201,
+    "stargazers_count": 1202,
     "language": "JavaScript"
   },
   {
@@ -464,7 +464,7 @@
     "name": "ungoogled-chromium-windows",
     "full_name": "ungoogled-software/ungoogled-chromium-windows",
     "description": "Windows packaging for ungoogled-chromium",
-    "stargazers_count": 2660,
+    "stargazers_count": 2661,
     "language": "Python"
   },
   {
@@ -482,7 +482,7 @@
     "name": "CF-Workers-docker.io",
     "full_name": "cmliu/CF-Workers-docker.io",
     "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
-    "stargazers_count": 9162,
+    "stargazers_count": 9160,
     "language": "JavaScript"
   },
   {
@@ -509,7 +509,7 @@
     "name": "awesome-open-source-games",
     "full_name": "michelpereira/awesome-open-source-games",
     "description": "Collection of Games that have the source code available on GitHub",
-    "stargazers_count": 3448,
+    "stargazers_count": 3450,
     "language": null
   },
   {
@@ -536,7 +536,7 @@
     "name": "weekly",
     "full_name": "xuanli199/weekly",
     "description": "保存玄离199每周科技补全中提到的各种软件和项目",
-    "stargazers_count": 3862,
+    "stargazers_count": 3864,
     "language": "TypeScript"
   },
   {
@@ -554,7 +554,7 @@
     "name": "PakePlus",
     "full_name": "Sjj1024/PakePlus",
     "description": "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app",
-    "stargazers_count": 16294,
+    "stargazers_count": 16320,
     "language": "HTML"
   },
   {
@@ -572,7 +572,7 @@
     "name": "PotPlayer_ChatGPT_Translate",
     "full_name": "Felix3322/PotPlayer_ChatGPT_Translate",
     "description": "[support ollama/other model]【兼容ollama和其他模型】将任何具有OpenAI API调用方法的模型集成到PotPlayer中。它使你在观看视频时能够实时翻译字幕，从而打破语言障碍，提升你的观看体验。 This real-time subtitle translation plugin integrates OpenAI's ChatGPT API (or any model with the same API calling method) into PotPlayer. It enables you to translate subtitles on-the-fly while watching videos. ",
-    "stargazers_count": 1085,
+    "stargazers_count": 1084,
     "language": "AngelScript"
   },
   {
@@ -617,7 +617,7 @@
     "name": "index-tts",
     "full_name": "index-tts/index-tts",
     "description": "An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System",
-    "stargazers_count": 25306,
+    "stargazers_count": 25318,
     "language": "Python"
   },
   {
@@ -635,7 +635,7 @@
     "name": "ArtPlayer",
     "full_name": "zhw2590582/ArtPlayer",
     "description": ":art: ArtPlayer.js is a modern and full featured HTML5 video player",
-    "stargazers_count": 4177,
+    "stargazers_count": 4178,
     "language": "JavaScript"
   },
   {
@@ -653,7 +653,7 @@
     "name": "dimina",
     "full_name": "didi/dimina",
     "description": "Dimina MiniProgram - DiDi's Open-Source MiniProgram / 星河小程序 - 滴滴开源小程序",
-    "stargazers_count": 975,
+    "stargazers_count": 976,
     "language": "JavaScript"
   },
   {
@@ -671,7 +671,7 @@
     "name": "OpenSpeedy",
     "full_name": "game1024/OpenSpeedy",
     "description": "🎮 An open-source game speed modifier.",
-    "stargazers_count": 21325,
+    "stargazers_count": 21346,
     "language": "TypeScript"
   },
   {
@@ -680,7 +680,7 @@
     "name": "EasyTier",
     "full_name": "EasyTier/EasyTier",
     "description": "A simple, decentralized mesh VPN with WireGuard support.",
-    "stargazers_count": 14987,
+    "stargazers_count": 15002,
     "language": "Rust"
   },
   {
@@ -707,7 +707,7 @@
     "name": "Hail",
     "full_name": "aistra0528/Hail",
     "description": "Disable / Hide / Suspend / Uninstall Android apps without root.",
-    "stargazers_count": 7476,
+    "stargazers_count": 7496,
     "language": "Kotlin"
   },
   {
@@ -716,7 +716,7 @@
     "name": "what-happens-when-zh_CN",
     "full_name": "skyline75489/what-happens-when-zh_CN",
     "description": "What-happens-when 的中文翻译，原仓库 https://github.com/alex/what-happens-when",
-    "stargazers_count": 8055,
+    "stargazers_count": 8054,
     "language": null
   },
   {
@@ -725,7 +725,7 @@
     "name": "GUI.for.SingBox",
     "full_name": "GUI-for-Cores/GUI.for.SingBox",
     "description": "Modern, lightweight desktop app built with Wails (Go) and Vue 3. Efficient, cross-platform, and fast.",
-    "stargazers_count": 8237,
+    "stargazers_count": 8238,
     "language": "Vue"
   },
   {
@@ -734,7 +734,7 @@
     "name": "DouyinLiveRecorder",
     "full_name": "ihmily/DouyinLiveRecorder",
     "description": "可循环值守和多人录制的直播录制软件，支持抖音、TikTok、Youtube、快手、虎牙、斗鱼、B站、小红书、pandatv、sooplive、flextv、popkontv、twitcasting、winktv、百度、微博、酷狗、17Live、Twitch、Acfun、CHZZK、shopee等40+平台直播录制",
-    "stargazers_count": 11300,
+    "stargazers_count": 11301,
     "language": "Python"
   },
   {
@@ -770,7 +770,7 @@
     "name": "ContextMenuManager",
     "full_name": "BluePointLilac/ContextMenuManager",
     "description": "🖱️ 纯粹的Windows右键菜单管理程序",
-    "stargazers_count": 20495,
+    "stargazers_count": 20500,
     "language": "C#"
   },
   {
@@ -779,7 +779,7 @@
     "name": "ZeroOmega",
     "full_name": "zero-peak/ZeroOmega",
     "description": "Manage and switch between multiple proxies quickly & easily.",
-    "stargazers_count": 8154,
+    "stargazers_count": 8160,
     "language": "CoffeeScript"
   },
   {
@@ -788,7 +788,7 @@
     "name": "Cloudflare-vless-trojan",
     "full_name": "yonggekkk/Cloudflare-vless-trojan",
     "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
-    "stargazers_count": 16834,
+    "stargazers_count": 16839,
     "language": "JavaScript"
   },
   {
@@ -833,7 +833,7 @@
     "name": "Xray-core",
     "full_name": "XTLS/Xray-core",
     "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-    "stargazers_count": 43171,
+    "stargazers_count": 43189,
     "language": "Go"
   },
   {
@@ -851,7 +851,7 @@
     "name": "sherpa-onnx",
     "full_name": "k2-fsa/sherpa-onnx",
     "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
-    "stargazers_count": 16243,
+    "stargazers_count": 16270,
     "language": "C++"
   },
   {
@@ -860,7 +860,7 @@
     "name": "Easy-Voice-Toolkit",
     "full_name": "Spr-Aachen/Easy-Voice-Toolkit",
     "description": "A user-friendly toolkit for voice recgonition/transcription/conversion etc. | 简单易用的语音工具箱",
-    "stargazers_count": 870,
+    "stargazers_count": 869,
     "language": "Python"
   },
   {
@@ -869,7 +869,7 @@
     "name": "pic-smaller",
     "full_name": "joye61/pic-smaller",
     "description": "Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently",
-    "stargazers_count": 2896,
+    "stargazers_count": 2897,
     "language": "TypeScript"
   },
   {
@@ -932,7 +932,7 @@
     "name": "tiny-rdm",
     "full_name": "tiny-craft/tiny-rdm",
     "description": "Tiny RDM (Tiny Redis Desktop Manager) - A modern, colorful, super lightweight Redis GUI client for Mac, Windows, and Linux. It also provides a web version that can be deployed via Docker.",
-    "stargazers_count": 13173,
+    "stargazers_count": 13176,
     "language": "Vue"
   },
   {
@@ -950,7 +950,7 @@
     "name": "Bert-VITS2",
     "full_name": "fishaudio/Bert-VITS2",
     "description": "vits2 backbone with multilingual-bert",
-    "stargazers_count": 8805,
+    "stargazers_count": 8806,
     "language": "Python"
   },
   {
@@ -977,7 +977,7 @@
     "name": "TTS",
     "full_name": "coqui-ai/TTS",
     "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
-    "stargazers_count": 46282,
+    "stargazers_count": 46288,
     "language": "Python"
   },
   {
@@ -995,7 +995,7 @@
     "name": "tinyfilemanager",
     "full_name": "prasathmani/tinyfilemanager",
     "description": "Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager",
-    "stargazers_count": 6022,
+    "stargazers_count": 6023,
     "language": "PHP"
   },
   {
@@ -1022,7 +1022,7 @@
     "name": "FlaUI",
     "full_name": "FlaUI/FlaUI",
     "description": "UI automation library for .Net",
-    "stargazers_count": 3228,
+    "stargazers_count": 3229,
     "language": "C#"
   },
   {
@@ -1049,7 +1049,7 @@
     "name": "Gmeek",
     "full_name": "Meekdai/Gmeek",
     "description": "Gmeek is a Blog All in Github",
-    "stargazers_count": 2381,
+    "stargazers_count": 2382,
     "language": "Python"
   },
   {
@@ -1058,7 +1058,7 @@
     "name": "SmsForwarder",
     "full_name": "pppscn/SmsForwarder",
     "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-    "stargazers_count": 29035,
+    "stargazers_count": 29049,
     "language": "Kotlin"
   },
   {
@@ -1130,7 +1130,7 @@
     "name": "zincsearch",
     "full_name": "zincsearch/zincsearch",
     "description": "ZincSearch . A lightweight alternative to elasticsearch that requires minimal resources, written in Go.",
-    "stargazers_count": 17932,
+    "stargazers_count": 17931,
     "language": "Go"
   },
   {
@@ -1166,7 +1166,7 @@
     "name": "LiTiaotiao-Custom-Rules",
     "full_name": "wtwang1998/LiTiaotiao-Custom-Rules",
     "description": null,
-    "stargazers_count": 10133,
+    "stargazers_count": 10134,
     "language": null
   },
   {
@@ -1193,7 +1193,7 @@
     "name": "sqlite-gui",
     "full_name": "little-brother/sqlite-gui",
     "description": "Lightweight SQLite editor for Windows",
-    "stargazers_count": 1246,
+    "stargazers_count": 1249,
     "language": "C"
   },
   {
@@ -1211,7 +1211,7 @@
     "name": "obs-multi-rtmp",
     "full_name": "sorayuki/obs-multi-rtmp",
     "description": "OBS複数サイト同時配信プラグイン",
-    "stargazers_count": 5178,
+    "stargazers_count": 5183,
     "language": "C++"
   },
   {
@@ -1220,7 +1220,7 @@
     "name": "BBDown",
     "full_name": "nilaoda/BBDown",
     "description": "Bilibili Downloader. 一个命令行式哔哩哔哩下载器.",
-    "stargazers_count": 13819,
+    "stargazers_count": 13818,
     "language": "C#"
   },
   {
@@ -1229,7 +1229,7 @@
     "name": "Retrieval-based-Voice-Conversion-WebUI",
     "full_name": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
     "description": "Easily train a good VC model with voice data <= 10 mins!",
-    "stargazers_count": 39306,
+    "stargazers_count": 39323,
     "language": "Python"
   },
   {
@@ -1238,7 +1238,7 @@
     "name": "voice-changer",
     "full_name": "w-okada/voice-changer",
     "description": "リアルタイムボイスチェンジャー Realtime Voice Changer",
-    "stargazers_count": 21458,
+    "stargazers_count": 21464,
     "language": "Python"
   },
   {
@@ -1256,7 +1256,7 @@
     "name": "ExplorerPatcher",
     "full_name": "valinet/ExplorerPatcher",
     "description": "This project aims to enhance the working environment on Windows",
-    "stargazers_count": 34431,
+    "stargazers_count": 34439,
     "language": "C"
   },
   {
@@ -1301,7 +1301,7 @@
     "name": "domain-admin",
     "full_name": "dromara/domain-admin",
     "description": "域名SSL证书监测平台、SSL证书申请自动续签。Domain and SSL Cert monitor System. ",
-    "stargazers_count": 2457,
+    "stargazers_count": 2458,
     "language": "Python"
   },
   {
@@ -1328,7 +1328,7 @@
     "name": "Luckysheet",
     "full_name": "dream-num/Luckysheet",
     "description": "Luckysheet upgraded to Univer",
-    "stargazers_count": 16623,
+    "stargazers_count": 16621,
     "language": "JavaScript"
   },
   {
@@ -1364,7 +1364,7 @@
     "name": "srs",
     "full_name": "ossrs/srs",
     "description": "SRS is a simple, high-performance, AI-driven real-time media server supporting RTMP, WebRTC, HLS, HTTP-FLV, HTTP-TS, SRT, MPEG-DASH, and GB28181, with codec support for H.264, H.265, AV1, VP9, AAC, Opus, and G.711.",
-    "stargazers_count": 29460,
+    "stargazers_count": 29462,
     "language": "C++"
   },
   {
@@ -1427,7 +1427,7 @@
     "name": "easytrojan",
     "full_name": "eastmaple/easytrojan",
     "description": "世界上最简单的Trojan部署脚本，仅需一行命令即可搭建一台代理服务器",
-    "stargazers_count": 1222,
+    "stargazers_count": 1220,
     "language": "Shell"
   },
   {
@@ -1481,7 +1481,7 @@
     "name": "cloudreve",
     "full_name": "cloudreve/cloudreve",
     "description": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
-    "stargazers_count": 29019,
+    "stargazers_count": 29020,
     "language": "Go"
   },
   {
@@ -1508,7 +1508,7 @@
     "name": "webdav",
     "full_name": "hacdias/webdav",
     "description": "A simple and standalone WebDAV server.",
-    "stargazers_count": 6004,
+    "stargazers_count": 6006,
     "language": "Go"
   },
   {
@@ -1544,7 +1544,7 @@
     "name": "upscayl",
     "full_name": "upscayl/upscayl",
     "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
-    "stargazers_count": 53246,
+    "stargazers_count": 53301,
     "language": "TypeScript"
   },
   {
@@ -1553,7 +1553,7 @@
     "name": "Bilibili-Evolved",
     "full_name": "the1812/Bilibili-Evolved",
     "description": "强大的哔哩哔哩增强脚本",
-    "stargazers_count": 31223,
+    "stargazers_count": 31228,
     "language": "TypeScript"
   },
   {
@@ -1562,7 +1562,7 @@
     "name": "OLAINDEX",
     "full_name": "WangNingkai/OLAINDEX",
     "description": "✨ Another OneDrive Directory Index",
-    "stargazers_count": 2202,
+    "stargazers_count": 2201,
     "language": "PHP"
   },
   {
@@ -1580,7 +1580,7 @@
     "name": "Fido",
     "full_name": "pbatard/Fido",
     "description": "A PowerShell script to download Windows or UEFI Shell ISOs",
-    "stargazers_count": 2936,
+    "stargazers_count": 2937,
     "language": "PowerShell"
   },
   {
@@ -1589,7 +1589,7 @@
     "name": "Grasscutter",
     "full_name": "Grasscutters/Grasscutter",
     "description": "A server software reimplementation for a certain anime game.",
-    "stargazers_count": 16813,
+    "stargazers_count": 16810,
     "language": "Java"
   },
   {
@@ -1598,7 +1598,7 @@
     "name": "cat-catch",
     "full_name": "xifangczy/cat-catch",
     "description": "猫抓 浏览器资源嗅探扩展 / cat-catch Browser Resource Sniffing Extension",
-    "stargazers_count": 23212,
+    "stargazers_count": 23228,
     "language": "JavaScript"
   },
   {
@@ -1607,7 +1607,7 @@
     "name": "Rocket.Chat",
     "full_name": "RocketChat/Rocket.Chat",
     "description": "Interoperable by design. Governed by you. Open-source, secure platform for messaging, voice, video and governed AI, built for defense and government.",
-    "stargazers_count": 46565,
+    "stargazers_count": 46590,
     "language": "TypeScript"
   },
   {
@@ -1616,7 +1616,7 @@
     "name": "pocketbase",
     "full_name": "pocketbase/pocketbase",
     "description": "Open Source realtime backend in 1 file",
-    "stargazers_count": 61573,
+    "stargazers_count": 61577,
     "language": "Go"
   },
   {
@@ -1625,7 +1625,7 @@
     "name": "RevokeMsgPatcher",
     "full_name": "huiyadanli/RevokeMsgPatcher",
     "description": ":trollface: A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
-    "stargazers_count": 39422,
+    "stargazers_count": 39429,
     "language": "C#"
   },
   {
@@ -1670,7 +1670,7 @@
     "name": "ShaderGlass",
     "full_name": "mausimus/ShaderGlass",
     "description": "Overlay for running GPU shaders on top of Windows desktop and Wine",
-    "stargazers_count": 4410,
+    "stargazers_count": 4411,
     "language": "C++"
   },
   {
@@ -1679,7 +1679,7 @@
     "name": "Magpie",
     "full_name": "Blinue/Magpie",
     "description": "A general-purpose window upscaler for Windows 10/11.",
-    "stargazers_count": 16600,
+    "stargazers_count": 16616,
     "language": "HLSL"
   },
   {
@@ -1715,7 +1715,7 @@
     "name": "Waifu2x-Extension-GUI",
     "full_name": "AaronFeng753/Waifu2x-Extension-GUI",
     "description": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x,  Real-ESRGAN, Real-CUGAN, RTX Video Super Resolution VSR, SRMD, RealSR, Anime4K, RIFE, IFRNet, CAIN, DAIN,  and ACNet.",
-    "stargazers_count": 17272,
+    "stargazers_count": 17276,
     "language": "C++"
   },
   {
@@ -1724,7 +1724,7 @@
     "name": "Squirrel-RIFE",
     "full_name": "Justin62628/Squirrel-RIFE",
     "description": "效果更好的补帧软件，显存占用更小，是DAIN速度的10-25倍，包含抽帧处理，去除动漫卡顿感",
-    "stargazers_count": 3532,
+    "stargazers_count": 3533,
     "language": "Python"
   },
   {
@@ -1733,7 +1733,7 @@
     "name": "Bash-Oneliner",
     "full_name": "onceupon/Bash-Oneliner",
     "description": "A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.",
-    "stargazers_count": 10809,
+    "stargazers_count": 10810,
     "language": null
   },
   {
@@ -1742,7 +1742,7 @@
     "name": "VeryNginx",
     "full_name": "alexazhou/VeryNginx",
     "description": " A very powerful and friendly  nginx base on lua-nginx-module( openresty ) which provide WAF, Control Panel, and Dashboards. ",
-    "stargazers_count": 5971,
+    "stargazers_count": 5969,
     "language": "Lua"
   },
   {
@@ -1787,7 +1787,7 @@
     "name": "dufs",
     "full_name": "sigoden/dufs",
     "description": "A file server that supports static serving, uploading, searching, accessing control, webdav...",
-    "stargazers_count": 11162,
+    "stargazers_count": 11173,
     "language": "Rust"
   },
   {
@@ -1796,7 +1796,7 @@
     "name": "ThinkDSP",
     "full_name": "AllenDowney/ThinkDSP",
     "description": "Think DSP: Digital Signal Processing in Python, by Allen B. Downey.",
-    "stargazers_count": 4698,
+    "stargazers_count": 4697,
     "language": "Jupyter Notebook"
   },
   {
@@ -1832,7 +1832,7 @@
     "name": "bilibili-API-collect",
     "full_name": "SocialSisterYi/bilibili-API-collect",
     "description": null,
-    "stargazers_count": 20111,
+    "stargazers_count": 20112,
     "language": null
   },
   {
@@ -1841,7 +1841,7 @@
     "name": "downkyi",
     "full_name": "leiurayer/downkyi",
     "description": null,
-    "stargazers_count": 24321,
+    "stargazers_count": 24320,
     "language": null
   },
   {
@@ -1877,7 +1877,7 @@
     "name": "photoprism",
     "full_name": "photoprism/photoprism",
     "description": "AI-Powered Photos App 🌈💎✨",
-    "stargazers_count": 40481,
+    "stargazers_count": 40483,
     "language": "Go"
   },
   {
@@ -1931,7 +1931,7 @@
     "name": "EarTrumpet",
     "full_name": "File-New-Project/EarTrumpet",
     "description": "EarTrumpet - Volume Control for Windows",
-    "stargazers_count": 11587,
+    "stargazers_count": 11592,
     "language": "C#"
   },
   {
@@ -1958,7 +1958,7 @@
     "name": "pinyin-pro",
     "full_name": "zh-lx/pinyin-pro",
     "description": "中文转拼音、拼音音调、拼音声母、拼音韵母、多音字拼音、姓氏拼音、拼音匹配、中文分词",
-    "stargazers_count": 4775,
+    "stargazers_count": 4776,
     "language": "TypeScript"
   },
   {
@@ -1967,7 +1967,7 @@
     "name": "NVEnc",
     "full_name": "rigaya/NVEnc",
     "description": "NVENCによる高速エンコードの性能実験",
-    "stargazers_count": 1405,
+    "stargazers_count": 1407,
     "language": "C++"
   },
   {
@@ -1976,7 +1976,7 @@
     "name": "searx",
     "full_name": "searx/searx",
     "description": "Privacy-respecting metasearch engine",
-    "stargazers_count": 13570,
+    "stargazers_count": 13569,
     "language": "Python"
   },
   {
@@ -1985,7 +1985,7 @@
     "name": "youtube-dl-gui",
     "full_name": "jely2002/youtube-dl-gui",
     "description": "Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.",
-    "stargazers_count": 9780,
+    "stargazers_count": 9781,
     "language": "Rust"
   },
   {
@@ -1994,7 +1994,7 @@
     "name": "Real-ESRGAN",
     "full_name": "xinntao/Real-ESRGAN",
     "description": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
-    "stargazers_count": 37664,
+    "stargazers_count": 37690,
     "language": "Python"
   },
   {
@@ -2012,7 +2012,7 @@
     "name": "Malware-Patch",
     "full_name": "the1812/Malware-Patch",
     "description": "通过 UAC 阻止流氓软件的管理员授权. / Prevent UAC authorization of malware.",
-    "stargazers_count": 5650,
+    "stargazers_count": 5651,
     "language": "C#"
   },
   {
@@ -2048,7 +2048,7 @@
     "name": "cow",
     "full_name": "cyfdecyf/cow",
     "description": "HTTP proxy written in Go. COW can automatically identify blocked sites and use parent proxies to access.",
-    "stargazers_count": 8397,
+    "stargazers_count": 8396,
     "language": "Go"
   },
   {
@@ -2057,7 +2057,7 @@
     "name": "nginxconfig.io",
     "full_name": "digitalocean/nginxconfig.io",
     "description": "⚙️ NGINX config generator on steroids 💉",
-    "stargazers_count": 28241,
+    "stargazers_count": 28236,
     "language": "JavaScript"
   },
   {
@@ -2102,7 +2102,7 @@
     "name": "iptv",
     "full_name": "iptv-org/iptv",
     "description": "Collection of publicly available IPTV channels from all over the world",
-    "stargazers_count": 144731,
+    "stargazers_count": 144780,
     "language": "TypeScript"
   },
   {
@@ -2111,7 +2111,7 @@
     "name": "chineseocr_lite",
     "full_name": "DayBreak-u/chineseocr_lite",
     "description": "超轻量级中文ocr，支持竖排文字识别, 支持ncnn、mnn、tnn推理 ( dbnet(1.8M) + crnn(2.5M) + anglenet(378KB)) 总模型仅4.7M ",
-    "stargazers_count": 12367,
+    "stargazers_count": 12369,
     "language": "C++"
   },
   {
@@ -2120,7 +2120,7 @@
     "name": "ZLMediaKit",
     "full_name": "ZLMediaKit/ZLMediaKit",
     "description": "WebRTC/RTSP/RTMP/HTTP/HLS/HTTP-FLV/WebSocket-FLV/HTTP-TS/HTTP-fMP4/WebSocket-TS/WebSocket-fMP4/GB28181/SRT/STUN/TURN server and client framework based on C++11",
-    "stargazers_count": 17733,
+    "stargazers_count": 17738,
     "language": "C++"
   },
   {
@@ -2138,7 +2138,7 @@
     "name": "moovie.js",
     "full_name": "BMSVieira/moovie.js",
     "description": "Movie focused HTML5 Player",
-    "stargazers_count": 1698,
+    "stargazers_count": 1697,
     "language": "JavaScript"
   },
   {
@@ -2156,7 +2156,7 @@
     "name": "Microsoft-Activation-Scripts",
     "full_name": "massgravel/Microsoft-Activation-Scripts",
     "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
-    "stargazers_count": 200999,
+    "stargazers_count": 201094,
     "language": "Batchfile"
   },
   {
@@ -2174,7 +2174,7 @@
     "name": "passbolt_api",
     "full_name": "passbolt/passbolt_api",
     "description": "Passbolt Community Edition (CE) API. The JSON API for the open source password manager for teams!",
-    "stargazers_count": 6248,
+    "stargazers_count": 6250,
     "language": "PHP"
   },
   {
@@ -2210,7 +2210,7 @@
     "name": "xrdp",
     "full_name": "neutrinolabs/xrdp",
     "description": "xrdp: an open source RDP server",
-    "stargazers_count": 6793,
+    "stargazers_count": 6795,
     "language": "C"
   },
   {
@@ -2228,7 +2228,7 @@
     "name": "WeCron",
     "full_name": "polyrabbit/WeCron",
     "description": ":heavy_check_mark: 微信上的定时提醒 - Cron on WeChat",
-    "stargazers_count": 693,
+    "stargazers_count": 692,
     "language": "JavaScript"
   },
   {
@@ -2255,7 +2255,7 @@
     "name": "frp",
     "full_name": "fatedier/frp",
     "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-    "stargazers_count": 110807,
+    "stargazers_count": 110824,
     "language": "Go"
   },
   {
@@ -2264,7 +2264,7 @@
     "name": "free-programming-books-zh_CN",
     "full_name": "justjavac/free-programming-books-zh_CN",
     "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
-    "stargazers_count": 119717,
+    "stargazers_count": 119725,
     "language": null
   }
 ]
